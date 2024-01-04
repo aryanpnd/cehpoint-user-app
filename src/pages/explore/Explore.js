@@ -353,24 +353,7 @@ function Explore({ navigation }) {
       <TouchableOpacity onPress={onOpen}>
         <Text>jobs andsdsdd dsds intern</Text>
       </TouchableOpacity>
-      {/* <Modalize
-        ref={modalizeRef}
-        // snapPoint={300}
-        // modalHeight={600}
-        alwaysOpen={200}
-        // adjustToContentHeight
-        adjustToContentHeight={true}
-        disableScrollIfPossible={false}
-        // disableScrollIfPossible={true}
-        // adjustToContentHeight={height * 0.9 > contentHeight}
-        // scrollViewProps={{ showsVerticalScrollIndicator: true }}
-        // panGestureAnimatedValue={animated}
-        // cancelable={true}
-      >
-        <ScrollView>
-          <JobsAndIntern />
-        </ScrollView>
-      </Modalize> */}
+      
 
       {/* <RBSheet
         ref={refRBSheet}
