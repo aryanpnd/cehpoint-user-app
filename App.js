@@ -59,7 +59,7 @@ export default function App() {
       <NativeBaseProvider>
         <NavigationContainer>
           <Stack.Navigator
-            screenOptions={{ headerShown: false }}
+            screenOptions={{ headerShown: false, animation:"slide_from_right" }}
             initialRouteName="check-user"
           >
             <Stack.Screen name="check-user" component={CheckUser} />
